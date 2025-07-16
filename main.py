@@ -5,7 +5,6 @@ import pickle
 
 # Load data and model
 data = pd.read_csv('Cleaned_data.csv')
-pipe = pickle.load(open("RidgeModel.pkl", "rb"))
 
 # App Title
 st.title("🏡 Bangalore House Price Predictor")
