@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-
+# import scikit-learn
 # Load data and model
 data = pd.read_csv('Cleaned_data.csv')
 pipe = pickle.load(open("RidgeModel.pkl", "rb"))
